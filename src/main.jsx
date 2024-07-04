@@ -12,7 +12,7 @@ import HomePage from './pages/HomePage.jsx'
 const router = createBrowserRouter( [
   {
     path: '/',
-    element: <AppLayout/>,
+    element: <AppLayout />,
     errorElement: <div>Error Page</div>,
     children: [
       {
