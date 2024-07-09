@@ -1,7 +1,7 @@
 import React from 'react'
 // icons
 import { CiLocationOn, CiDeliveryTruck } from "react-icons/ci";
-
+import {IoMdClose} from 'react-icons/io'
 
 
 function HeaderComponent({setActiveHeader}) {

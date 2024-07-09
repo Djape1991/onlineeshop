@@ -1,5 +1,5 @@
 // images/logo
-import logo from '../assets/logo.png';
+// import logo from '../assets/logo.png';
 
 //icons
 import { CiUser,CiHeart, CiShoppingCart } from "react-icons/ci";
@@ -9,7 +9,7 @@ function NavbarComponent() {
   return (
     <div className="bg-mainBlue h-full lg:h-[100px] flex items-center gap-[10px] py-[10px]">
       <div className="container mx-auto flex justify-between items-center flex-col lg:flex-row gap-[10px]">
-        <img src='{logo}' alt="logo-image" />
+        {/* <img src={logo} alt="logo-image" /> */}
 
 
         {/* search bar */}

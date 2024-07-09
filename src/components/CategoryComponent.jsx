@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 // our services
 import CategoryService from '../services/CategoryService';
 
@@ -6,6 +6,7 @@ function CategoryComponent() {
 
     const [getAllCategory, setAllCategory] = useState([]);
 
+     const [isloading, setIsLoading] = useState(false)
   useEffect(() => {
     CategoryService.getAllCategory()
     .then((res) => {

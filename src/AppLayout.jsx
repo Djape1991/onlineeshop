@@ -24,4 +24,5 @@ function AppLayout() {
   )
 }
 
-export default App
+export default AppLayout
+
